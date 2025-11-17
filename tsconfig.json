@@ -3,8 +3,23 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "@/*": [
-        "./*"
+      "@components/*": [
+        "components/*"
+      ],
+      "@hooks/*": [
+        "hooks/*"
+      ],
+      "@store/*": [
+        "store/*"
+      ],
+      "@services/*": [
+        "services/*"
+      ],
+      "@utils/*": [
+        "utils/*"
+      ],
+      "@constants/*": [
+        "constants/*"
       ]
     }
   },
@@ -12,6 +27,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".expo/types/**/*.ts",
-    "expo-env.d.ts"
+    "expo-env.d.ts",
+    "nativewind-env.d.ts"
   ]
 }
